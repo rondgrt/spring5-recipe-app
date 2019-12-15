@@ -1,0 +1,4 @@
+general:
+  branches:
+    only:
+      - ron-follow-along # list of branches to build
