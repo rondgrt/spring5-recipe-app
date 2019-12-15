@@ -6,10 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
-          name: The First Step
+          name: Run maven verify
           command: |
-            echo 'Hello World!'
-            echo 'This is the delivery pipeline'
+            mvn clean verify
 
 general:
   branches:
